@@ -293,10 +293,12 @@ a {
     width: 100%;
     clear: both;
     text-align: left;
-    padding-left: 20px;
-    padding-right: 5px;
+    font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+    font-size: 13px;
+    padding-right: 20px;
     margin-top: 20px;
     line-height: 1.5;
+    padding-bottom: 35px;
 }
 
     .postDesc a:link, .postDesc a:visited, .postDesc a:active {
