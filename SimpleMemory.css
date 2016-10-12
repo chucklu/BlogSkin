@@ -217,7 +217,8 @@ a {
     overflow: hidden;
     float: left;
     margin-left: -22em;
-    width: 100%;
+    width: 100%;font-family:"微软雅黑" , "宋体" , "黑体" ,Arial;/*比较钟爱微软雅黑*/
+    font-size: 14px;/*自己加的，不知道有冲突没有？*/
 }
 
 .day {
@@ -233,7 +234,7 @@ a {
     border: 1px solid #21759b;
     background: azure;
     border-radius: 50%;
-    font-size: 12px;
+    font-size: 14px;
     height: 65px;
     line-height: 1.5;
     margin: 15px;
