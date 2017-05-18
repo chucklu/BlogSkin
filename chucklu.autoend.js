@@ -1,22 +1,22 @@
 jQuery.fn.wait = function (func, times, interval) {
     var _times = times || -1,
-        //100娆�
+        //100次
         _interval = interval || 20,
-        //20姣姣忔 
+        //20毫秒每次 
         _self = this,
         _selector = this.selector,
-        //閫夋嫨鍣�
-        _iIntervalID; //瀹氭椂鍣╥d
-    if (this.length) { //濡傛灉宸茬粡鑾峰彇鍒颁簡锛屽氨鐩存帴鎵ц鍑芥暟
+        //选择器
+        _iIntervalID; //定时器id
+    if (this.length) { //如果已经获取到了，就直接执行函数
         func && func.call(this);
     } else {
         _iIntervalID = setInterval(function query() {
-            if (!_times) { //鏄�0灏遍€€鍑�
+            if (!_times) { //是0就退出
                 clearInterval(_iIntervalID);
             }
-            _times <= 0 || _times--; //濡傛灉鏄鏁板氨 --
-            _self = $(_selector); //鍐嶆閫夋嫨
-            if (_self.length) { //鍒ゆ柇鏄惁鍙栧埌
+            _times <= 0 || _times--; //如果是正数就 --
+            _self = $(_selector); //再次选择
+            if (_self.length) { //判断是否取到
                 func && func.call(_self);
                 clearInterval(_iIntervalID);
             }
@@ -26,13 +26,13 @@ jQuery.fn.wait = function (func, times, interval) {
 }
 
 function focusFunction(){
-	var _targetTop = $('#comment_form_container').offset().top;//鑾峰彇浣嶇疆
-	jQuery("html,body").animate({scrollTop:_targetTop},300);//璺宠浆
+	var _targetTop = $('#comment_form_container').offset().top;//获取位置
+	jQuery("html,body").animate({scrollTop:_targetTop},300);//跳转
 }
 
 function focusFollow(){
-	var _targetTop = $('#profile_block').offset().top;//鑾峰彇浣嶇疆
-	jQuery("html,body").animate({scrollTop:_targetTop},300);//璺宠浆
+	var _targetTop = $('#profile_block').offset().top;//获取位置
+	jQuery("html,body").animate({scrollTop:_targetTop},300);//跳转
 }
 
 $(document).ready(function(){
@@ -45,13 +45,13 @@ $(document).ready(function(){
 	$("#cnblogs_post_body").append('<table width="100%" border="1" bgcolor=#DB70DB cellpadding="4" cellspacing="0" style="BORDER-COLLAPSE: collapse" borderColor=#000000><tr><td width=40 hight=40><pre><font size="4" color="blue">作者:卢俊涛(ChuckLu)    <a href="https://github.com/chucklu">GitHub</a></font>    </pre></td></tr></table>');
 });
 
-//js鎴彇瀛楃涓诧紝涓嫳鏂囬兘鑳界敤  
-//濡傛灉缁欏畾鐨勫瓧绗︿覆澶т簬鎸囧畾闀垮害锛屾埅鍙栨寚瀹氶暱搴﹁繑鍥烇紝鍚﹁€呰繑鍥炴簮瀛楃涓层€�  
-//瀛楃涓诧紝闀垮害  
+//js截取字符串，中英文都能用  
+//如果给定的字符串大于指定长度，截取指定长度返回，否者返回源字符串。  
+//字符串，长度  
 /** 
- * js鎴彇瀛楃涓诧紝涓嫳鏂囬兘鑳界敤 
- * @param str锛氶渶瑕佹埅鍙栫殑瀛楃涓� 
- * @param len: 闇€瑕佹埅鍙栫殑闀垮害 
+ * js截取字符串，中英文都能用 
+ * @param str：需要截取的字符串 
+ * @param len: 需要截取的长度 
  */
 function cutstr(str, len) {
     var str_length = 0;
@@ -62,7 +62,7 @@ function cutstr(str, len) {
         a = str.charAt(i);
         str_length++;
         if (escape(a).length > 4) {
-            //涓枃瀛楃鐨勯暱搴︾粡缂栫爜涔嬪悗澶т簬4  
+            //中文字符的长度经编码之后大于4  
             str_length++;
         }
         str_cut = str_cut.concat(a);
@@ -71,7 +71,7 @@ function cutstr(str, len) {
             return str_cut;
         }
     }
-    //濡傛灉缁欏畾瀛楃涓插皬浜庢寚瀹氶暱搴︼紝鍒欒繑鍥炴簮瀛楃涓诧紱  
+    //如果给定字符串小于指定长度，则返回源字符串；  
     if (str_length < len) {
         return str;
     }
