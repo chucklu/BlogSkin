@@ -1191,3 +1191,40 @@ color: #21759b; .entrylistDescription {
 #cnblogs_post_body img{
     max-width: 700px;
 }
+
+#cnblogs_post_body
+{
+    color: black;
+    font: 0.875em/1.5em "微软雅黑" , "PTSans" , "Arial" ,sans-serif;
+    font-size: 16px;
+}
+
+#cnblogs_post_body h1    {
+    font-size: 220%;
+    background-color: #2B6695;
+}
+
+#cnblogs_post_body h2{
+    font-size: 200%;
+    background-color: #2B6600;
+}
+
+#cnblogs_post_body h3{
+    font-size: 180%;
+    background-color: #5B9600;
+}
+
+#cnblogs_post_body h4{
+    font-size: 160%;
+    background-color: #4dacff;
+}
+
+#cnblogs_post_body h5{
+    font-size: 140%;
+    background-color: #80c3ff;
+}
+
+#cnblogs_post_body h6{
+    font-size: 120%;
+    background-color: #b3dbff;
+}
