@@ -217,8 +217,9 @@ a {
     overflow: hidden;
     float: left;
     margin-left: -22em;
-    width: 100%;font-family:"微软雅黑" , "宋体" , "黑体" ,Arial;/*比较钟爱微软雅黑*/
-    font-size: 14px;/*自己加的，不知道有冲突没有？*/
+    width: 100%;
+    font-family: "微软雅黑", "宋体", "黑体",Arial; /*比较钟爱微软雅黑*/
+    font-size: 14px; /*自己加的，不知道有冲突没有？*/
 }
 
 .day {
@@ -293,7 +294,7 @@ a {
     width: 100%;
     clear: both;
     text-align: left;
-    font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+    font-family: "微软雅黑", "宋体", "黑体",Arial;
     font-size: 13px;
     padding-right: 20px;
     margin-top: 20px;
@@ -1188,43 +1189,53 @@ color: #21759b; .entrylistDescription {
     line-height: 1.7;
 }
 
-#cnblogs_post_body img{
+#cnblogs_post_body img {
     max-width: 700px;
 }
 
-#cnblogs_post_body
-{
+#cnblogs_post_body {
     color: black;
-    font: 0.875em/1.5em "微软雅黑" , "PTSans" , "Arial" ,sans-serif;
+    font: 0.875em/1.5em "微软雅黑", "PTSans", "Arial",sans-serif;
     font-size: 16px;
 }
 
-#cnblogs_post_body h1    {
-    font-size: 220%;
-    background-color: #2B6695;
-}
+    #cnblogs_post_body h1, h2, h3, h4, h5, h6 {
+        border-left-style: solid;
+        border-left-width: 15px;
+    }
 
-#cnblogs_post_body h2{
-    font-size: 200%;
-    background-color: #2B6600;
-}
+    #cnblogs_post_body h1 {
+        font-size: 220%;
+        border-left-color: red;
+        background-color: #2B6695;
+    }
 
-#cnblogs_post_body h3{
-    font-size: 180%;
-    background-color: #5B9600;
-}
+    #cnblogs_post_body h2 {
+        font-size: 200%;
+        border-left-color: orange;
+        background-color: #2B6600;
+    }
 
-#cnblogs_post_body h4{
-    font-size: 160%;
-    background-color: #4dacff;
-}
+    #cnblogs_post_body h3 {
+        font-size: 180%;
+        border-left-color: yellow;
+        background-color: #5B9600;
+    }
 
-#cnblogs_post_body h5{
-    font-size: 140%;
-    background-color: #80c3ff;
-}
+    #cnblogs_post_body h4 {
+        font-size: 160%;
+        border-left-color: green;
+        background-color: #4dacff;
+    }
 
-#cnblogs_post_body h6{
-    font-size: 120%;
-    background-color: #b3dbff;
-}
+    #cnblogs_post_body h5 {
+        font-size: 140%;
+        border-left-color: blue;
+        background-color: #80c3ff;
+    }
+
+    #cnblogs_post_body h6 {
+        font-size: 120%;
+        border-left-color: purple;
+        background-color: #b3dbff;
+    }
