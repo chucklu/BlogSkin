@@ -212,15 +212,15 @@ a {
 #mainContent {
     min-height: 200px;
     padding: 0px 0px 10px 0;
-    *padding-top: 10px;
+    padding-top: 10px;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     overflow: hidden;
     float: left;
     margin-left: -22em;
     width: 100%;
-    font-family: "微软雅黑", "宋体", "黑体",Arial; /*比较钟爱微软雅黑*/
-    font-size: 14px; /*自己加的，不知道有冲突没有？*/
+    font-family: "微软雅黑", "宋体", "黑体",Arial;
+    font-size: 14px;
 }
 
 .day {
@@ -834,7 +834,7 @@ a {
     border-bottom: 2px solid #e6e6e6;
 }
 
-color: #21759b; .entrylistDescription {
+.entrylistDescription {
     color: #666;
     text-align: right;
     padding-top: 5px;
@@ -1164,7 +1164,7 @@ color: #21759b; .entrylistDescription {
 }
 
 .postBody blockquote {
-    background: url('images/comment.gif')) no-repeat 25px 0px;
+    background: url('images/comment.gif') no-repeat 25px 0px;
     min-height: 35px;
     _height: 35px;
     line-height: 1.6em;
