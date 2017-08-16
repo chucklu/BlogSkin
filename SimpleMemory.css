@@ -155,6 +155,8 @@ a {
     height: 60px;
     clear: both;
     margin-top: 25px;
+    background-color: #b899e8;
+    border: 1px solid #965ced;
 }
 
 #navList {
@@ -170,7 +172,7 @@ a {
     #navList a {
         display: block;
         width: 5em;
-        height: 22px;
+        height: 60px;
         float: left;
         text-align: center;
         padding-top: 19px;
@@ -182,8 +184,9 @@ a {
         }
 
         #navList a:hover {
-            color: #000;
+            color: blue;
             text-decoration: none;
+            background-color: white;
         }
 
 .blogStats {
