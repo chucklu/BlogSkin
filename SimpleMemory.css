@@ -1172,8 +1172,13 @@ a {
 }
 
     #sideBar h3 {
-        font-size: 14px;
         border-left-style: none;
+        background-color: #b899e8;
+        border: 1px solid #965ced;
+        color: blue;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 10px 20px;
     }
 
 .c_b_p_desc {
