@@ -141,6 +141,7 @@ a {
         line-height: 1.8;
         color: #757575;
         float: left;
+        border-left-style: none;
     }
 
 #blogLogo {
@@ -1182,6 +1183,7 @@ color: #21759b; .entrylistDescription {
 
     #sideBar h3 {
         font-size: 14px;
+        border-left-style: none;
     }
 
 .c_b_p_desc {
