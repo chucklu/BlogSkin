@@ -663,7 +663,6 @@ a {
     color: #555;
     border: 1px solid #ddd;
     border-radius: 3px;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     width: 320px;
 }
@@ -673,7 +672,6 @@ a {
         border-color: rgba(82, 168, 236, 0.8);
         outline: 0;
         -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
-        -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
         box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
         transition: all 0.4s linear 0s;
     }
@@ -689,7 +687,6 @@ a {
         border-color: rgba(82, 168, 236, 0.8);
         outline: 0;
         -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
-        -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
         box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
         transition: all 0.4s linear 0s;
     }
@@ -702,7 +699,6 @@ a {
     border: none;
     background: #21759b;
     border-radius: 3px;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -750,7 +746,6 @@ a {
     color: #555;
     border: 1px solid #ddd;
     border-radius: 3px;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     width: 320px;
     height: 20px;
@@ -779,7 +774,6 @@ a {
     color: #555;
     border: 1px solid #ddd;
     border-radius: 3px;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
 }
 
@@ -803,7 +797,6 @@ a {
     border: none;
     background: #21759b;
     border-radius: 3px;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -1009,7 +1002,6 @@ a {
     color: #555;
     border: 1px solid #ddd;
     border-radius: 3px;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
 }
 
@@ -1018,7 +1010,6 @@ a {
         border-color: rgba(82, 168, 236, 0.8);
         outline: 0;
         -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
-        -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
         box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.6);
         transition: all 0.4s linear 0s;
     }
@@ -1036,7 +1027,6 @@ a {
     border: none;
     background: #21759b;
     border-radius: 3px;
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
