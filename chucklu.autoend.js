@@ -42,7 +42,7 @@ $(document).ready(function(){
 
 	$('#cnblogs_post_body pre').find('>code').parent().css({'border':'dashed 1px #aaa','border-left':'solid 2px #6CE26C'});
 
-	$("#cnblogs_post_body").append('<table width="100%" border="1" bgcolor=#DB70DB cellpadding="4" cellspacing="0" style="BORDER-COLLAPSE: collapse" borderColor=#000000><tr><td width=40 hight=40><pre><font size="4" color="blue">作者:卢俊涛(ChuckLu)    <a href="https://github.com/chucklu">GitHub</a></font>    </pre></td></tr></table>');
+	$("#cnblogs_post_body").append('<table width="100%" border="1" bgcolor=#DB70DB cellpadding="4" cellspacing="0" style="BORDER-COLLAPSE: collapse" borderColor=#000000><tr><td width=40 hight=40><pre><font size="4" color="blue">作者:Chuck Lu    <a href="https://github.com/chucklu">GitHub</a></font>    </pre></td></tr></table>');
 });
 
 //js截取字符串，中英文都能用  
